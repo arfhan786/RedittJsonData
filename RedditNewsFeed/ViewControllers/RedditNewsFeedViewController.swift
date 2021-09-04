@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+// This is my view controller
 class RedditNewsFeedViewController: UIViewController {
     
     let redditNewsFeedViewModel: RedditNewsFeedViewModel = RedditNewsFeedViewModel()
