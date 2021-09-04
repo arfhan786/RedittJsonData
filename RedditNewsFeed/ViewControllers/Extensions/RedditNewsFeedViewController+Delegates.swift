@@ -50,4 +50,8 @@ extension RedditNewsFeedViewController: UITableViewDelegate, UITableViewDataSour
             return
         }
     }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
 }
