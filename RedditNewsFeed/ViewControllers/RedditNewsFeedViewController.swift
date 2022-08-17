@@ -19,12 +19,13 @@ class RedditNewsFeedViewController: UIViewController {
     let child = SpinnerViewController()
     
     var isValidKey:Bool = false
-    
+    //this is view didLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
         getNewsFeeds(after: "10")
         view.backgroundColor = .red
+        
     }
     
     //MARK:- Initiate View
