@@ -20,6 +20,7 @@ class RedditNewsFeedViewController: UIViewController {
     
     var isValidKey:Bool = false
     
+    //this is view didLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
