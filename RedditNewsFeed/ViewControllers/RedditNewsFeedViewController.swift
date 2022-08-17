@@ -25,7 +25,7 @@ class RedditNewsFeedViewController: UIViewController {
         super.viewDidLoad()
         configureUI()
         getNewsFeeds(after: "10")
-        view.backgroundColor = .red
+        view.backgroundColor = .green
     }
     
     //MARK:- Initiate View
